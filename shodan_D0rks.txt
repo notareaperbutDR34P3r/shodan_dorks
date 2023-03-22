@@ -1,0 +1,223 @@
+	*  Find secret API keys publicly exposed
+	
+		http.html:"xoxb-"
+		
+	* Find All Jenkins servers 
+	
+		http.favicon.hash:81586312
+		
+	* Find all grafana dashboards
+	
+		http.title:"Grafana"
+	
+	* CVE-2022-24255 Main & Admin Portals: Authentication Bypass
+	
+		http.html:zabbix
+	
+	* Horde webmail A takeover
+	
+		http.html:Horde:
+	
+	
+	* CVE-2022-24348:path traversal
+	
+		http.title:"Argo CD"
+	
+	* tomcat may log4j
+	
+		product:tomcat
+	
+	* NO password required for telnet
+	
+		port:23 console gateway
+	
+	* Windows RDP Password:
+	
+		"admin"proftpd port:21
+		
+	
+	* "authentication disabled" "RFB 003.008"
+
+		"authentication disabled" "RFB 003.008"
+	
+	* CVE CVE-2019-11510
+	
+		http.html:/dana-na/
+	
+	* unauthorized
+	
+		"unauthorized"
+		
+			
+	* Mongo Express Web GUI 
+	
+		"Set-Cookie: mongo-express=" "200 OK"
+	
+	* Jenkins CI
+	
+		"X-Jenkins" "Set-Cookie: JSESSIONID" http.title:"Dashboard"
+	
+	
+	* Intel Active Management CVE-2017-5689
+	
+		"Intel(R) Active Management Technology" port:623,664,16992,16993,16994,16995
+	
+	* Apache Directory Listings
+		
+		http.title:"Index of /" http.html:".pem"
+	
+	* HP Printers
+	
+		http.title:"Index of /" http.html:".pem"
+	
+		
+	* F5 BIG-IP using CVE-2020-5902
+	
+		http.title:"BIG-IP
+		
+	
+	* Default password
+	
+		"default password"
+		
+	* Guest Login
+		
+		guest login ok
+		
+	* WP config
+	
+		http.html:"* The wp-config.php creation script uses this file"
+		
+	* Root Session
+	
+		"root@" port:23 -login -password -name -Session		
+		
+	* Default wireless pass
+	
+		html:"def_wirelesspassword"
+		
+	* Auth Disabled
+	
+		"authentication disabled"
+		
+	* Dashboard
+	
+		http.title:"dashboard"
+		
+	* Control Panel
+	
+		http.title:"control panel"
+	
+	* phpmyadmin
+	
+		http.title:"phpmyadmin"
+		
+	* CouchDB
+	
+		product:"CouchDB"
+		
+	* kibana
+	
+		kibana content-length:217
+		
+	* CVE-2021-26855-CVE-2021-31206 Microsoft RCE
+	
+		http.title:outlook exchange
+		
+	* CVE-2022-29464 WSO2 RCE
+	
+		http.favicon.hash:1398055326
+	
+		http.html:WSO2
+	
+	* Cisco ASA CVE-2020-3452
+	
+		"webvpn="
+	
+	* Windows SMB exposures
+	
+		port:"445" os:"Windows"
+	
+	* CVE-2022-22954 in VMWare Workspace ONE
+		
+		http.favicon.hash:-1250474341
+		
+	* MongoDB database servers which have open authentication over the public internet 
+
+		"MongoDB Server Information" port:27017 -authentication
+	
+	* Mongo Express Web GUI
+		
+		"Set-Cookie: mongo-express=" "200 OK"
+
+	* MySQL-powered databases
+		
+		mysql port:"3306"
+
+	* ElasticSearch-powered instances
+	
+		port:"9200" all:"elastic indices"
+	
+	* PostgreSQL databases
+	
+		port:5432 PostgreSQL
+		
+	* querying for proftpd
+	
+		proftpd port:21
+		
+	* FTP servers that allow anonymous logins
+	
+		"220" "230 Login successful." port:21
+	
+	* OpenSSH
+	
+		openssh port:22
+		
+	* Telnet
+	
+		port:"23"
+		
+	* EXIM-powered mail servers on port 25
+	
+		port:"25" product:"exim"
+		
+	* Memcached, commonly seen on port 11211, has been a major source of UDP amplification attacks leading to huge DDoS attacks.
+	
+		port:"11211" product:"Memcached"
+		
+	* Jenkins
+			
+		"X-Jenkins" "Set-Cookie: JSESSIONID" http.title:"Dashboard"
+		
+	* DNS Servers 
+	
+		"port: 53" Recursion: Enabled
+		
+	* RouterOS MikroTik
+	
+		port:8291 os:"MikroTik RouterOS 6.45.9"
+		
+	* Apache Server P 80
+	
+		product:"Apache httpd" port:"80"
+		
+	* Microsoft IIS-powered websites and web servers
+	
+		product:"Microsoft IIS httpd"
+		
+	* Nginx-powered websites and web servers
+	
+		product:"nginx"
+		
+	* os:"windows 7" or any other 
+	
+		os:"windows 7"
+		
+	* Linux
+	
+		os:"Linux"
+		
+	
+		
+	
