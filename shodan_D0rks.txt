@@ -88,7 +88,7 @@
 	
 		http.html:"* The wp-config.php creation script uses this file"
 		
-	* Root Session
+	* Root Session (Mostly Honeypots)
 	
 		"root@" port:23 -login -password -name -Session		
 		
