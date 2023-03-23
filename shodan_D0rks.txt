@@ -13,6 +13,34 @@
 	* CVE-2022-24255 Main & Admin Portals: Authentication Bypass
 	
 		http.html:zabbix
+		
+	* Find devices by giving geographical coordinates.
+		
+		geo:"44.500000, -89.500000"
+						
+	* Surveillance Cams:
+
+			NETSurveillance uc-httpd
+			
+	* FTP ANON ACCESS
+	
+		 "220" "230 Login successful." port:21
+		 
+	* RDP PASS COULD B 2 WIN Auth
+	
+		 "\x03\x00\x00\x0b\x06\xd0\x00\x00\x124\x00"
+		 
+	* PWNED ROUTERS
+	
+		 hacked-router-help-sos
+		 
+	* OPEN ATM
+	
+		 NCR Port:"161"
+		 
+	*ANDROID ROOT BRIDGE 
+	
+		 "Android Debug Bridge" "Device" port:5555
 	
 	* Horde webmail A takeover
 	
